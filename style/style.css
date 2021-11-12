@@ -193,6 +193,7 @@ body {
 }
 /*---------Portfolio---------*/
 .filter-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -200,6 +201,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--accent-color);
+}
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
